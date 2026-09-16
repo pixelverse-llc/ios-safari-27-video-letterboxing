@@ -4,6 +4,12 @@ Starting with iOS 27, it seems that video from getUserMedia in portrait orientat
 
 Additionally, it only seems to affect video from getUserMedia(). A static video file of the same resolution (HD, rotated) displays without letter-boxing.
 
+To open this on your smartphone, scan the QR Code:
+
+![QR Code](qrcode.png)
+
+Or type the URL: https://pixelverse-llc.github.io/ios-safari-27-video-letterboxing/
+
 ## Screenshots
 
 ### iOS 27
