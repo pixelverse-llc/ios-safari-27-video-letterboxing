@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari 27 video letterboxing</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        *:not(dialog) {
+            margin: 0;
+        }
+        .wrapper {
+        }
+        .controls {
+            padding: 0.5rem 1rem;
+        }
+        video {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            background-color: darkgray;
+        }
+        #message {
+            font-size: small;
+            padding: 0.5rem 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <video playsinline loop></video>
+</div>
+<p id="message"></p>
+<div class="controls">
+    <button id="start-gum">getUserMedia@1280x720</button>
+    <button id="start-static">Static video</button>
+</div>
+
+<script src="index.js" type="module"></script>
+</body>
+</html>
