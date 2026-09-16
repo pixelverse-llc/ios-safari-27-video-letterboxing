@@ -6,7 +6,7 @@ Additionally, it only seems to affect video from getUserMedia(). A static video 
 
 To open this on your smartphone, scan the QR Code:
 
-![QR Code](qrcode.png)
+![QR Code](qr.png)
 
 Or type the URL: https://pixelverse-llc.github.io/ios-safari-27-video-letterboxing/
 
