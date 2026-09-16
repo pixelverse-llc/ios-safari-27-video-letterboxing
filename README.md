@@ -1,5 +1,7 @@
 # iOS 27 Safari video letterboxing
 
+This repository serves as reproducer for [WebKit issue 324317](https://bugs.webkit.org/show_bug.cgi?id=324317). 
+
 Starting with iOS 27, it seems that video from getUserMedia in portrait orientation gets letterboxed if it's displayed in a video element with a wide aspect ratio, even if `object-fit` is `cover`.
 
 Additionally, it only seems to affect video from getUserMedia(). A static video file of the same resolution (HD, rotated) displays without letter-boxing.
